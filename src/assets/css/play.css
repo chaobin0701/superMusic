@@ -1,0 +1,88 @@
+ /* 头部区域  */
+header{
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+}
+header .title{
+    height: .5rem;
+    width: 100%;
+}
+header .title .song-name{
+    padding-top: .1rem;
+    font-size: .15rem;
+    font-weight: bold;
+    text-align: center;
+    height: .25rem;
+    line-height: .25rem;
+    color: #fff;
+}
+header .title .song-author{
+    text-align: center;
+    line-height: .15rem;
+    color: rgba(255, 255, 255, .5);
+}
+
+
+/* 中间区域 */
+.content{
+    position:relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(110, 110, 110);
+}
+.content .content-bg{
+    width: 100%;
+    height: 100%;
+    background:no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    filter: blur(20px);
+    opacity: .7;
+}
+
+.song-picture{
+   position: absolute;
+}
+
+
+
+
+.content .song-picture{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: 3px solid rgba(255, 255, 255, .3);
+    box-shadow: rgb(66, 66, 66) 0px 0px 15px ;
+
+}
+.content .song-picture img{
+    width:2rem ;
+    height: 2rem;
+    transform: rotate(0deg);
+    transition: all 1s linear;
+}
+
+
+
+    /* 上部分 - 播放按钮 */
+.lower-port{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lower-port .iconfont{
+    font-size: .28rem;
+    color: #fff;
+}
+
+.lower-port .play {
+    font-size: .5rem;
+}
+
+

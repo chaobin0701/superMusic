@@ -1,0 +1,20 @@
+{
+    "txData":[
+        {"src":"./static/userPhoto/tx1.png"},
+        {"src":"./static/userPhoto/tx2.png"},
+        {"src":"./static/userPhoto/tx3.png"},
+        {"src":"./static/userPhoto/tx4.png"},
+        {"src":"./static/userPhoto/tx5.png"},
+        {"src":"./static/userPhoto/tx6.png"},
+        {"src":"./static/userPhoto/tx7.png"},
+        {"src":"./static/userPhoto/tx8.png"},
+        {"src":"./static/userPhoto/tx9.png"},
+        {"src":"./static/userPhoto/tx10.png"},
+        {"src":"./static/userPhoto/tx11.png"},
+        {"src":"./static/userPhoto/tx12.png"},
+        {"src":"./static/userPhoto/tx13.png"},
+        {"src":"./static/userPhoto/tx14.png"},
+        {"src":"./static/userPhoto/tx15.png"},
+        {"src":"./static/userPhoto/tx16.png"}
+    ] 
+}
